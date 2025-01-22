@@ -124,10 +124,16 @@ nav a:hover {
 }
 
 footer {
-    background-color: #4c3c32;
+    background-color: #333;
     color: white;
     text-align: center;
     padding: 20px 0;
+    text-align: center;
+}
+.footer a {
+    color: #f8b400;
+    text-decoration: none;
+    margin: 0 10px;
 }
 
 /* Product Grid */
