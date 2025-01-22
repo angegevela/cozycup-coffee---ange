@@ -94,7 +94,37 @@
         </div>
     </div>
 
-
+<!-- Pop-Up Modal -->
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <h3 id="modal-title"></h3>
+        <p id="modal-description"></p>
+    </div>
+  </div>
+  
+  <!-- JavaScript -->
+  <script>
+    function showModal(title, description) {
+        const modal = document.getElementById("modal");
+        document.getElementById("modal-title").innerText = title;
+        document.getElementById("modal-description").innerText = description;
+        modal.style.display = "flex"; // Show the modal
+    }
+  
+    function closeModal() {
+        const modal = document.getElementById("modal");
+        modal.style.display = "none"; // Hide the modal
+    }
+  
+    // Close modal when clicking outside the content
+    window.onclick = function (event) {
+        const modal = document.getElementById("modal");
+        if (event.target === modal) {
+            modal.style.display = "none";
+        }
+    };
+  </script>
     </section>
     <section id="about" class="about">
         <h2>About Us</h2>
