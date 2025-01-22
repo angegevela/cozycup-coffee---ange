@@ -30,16 +30,72 @@
     </section>
     
 
-    <section id="menu" class="menu">
+    <section id="menu" class="featured-products w3-container w3-center w3-padding-32">
         <h2>Our Menu</h2>
         <!-- Add menu items here -->
-        <div class="menu-item">
-            <img src="images/espresso.jpg" alt="Espresso" class="menu-image">
-            <h5>Espresso <b>PHP 120</b></h5><br>
-            <br><br><p>Rich and bold single-shot espresso.</p>
+        <div class="product-grid">
+            <div class="product">
+                <img src="images/cappucino.jpg" alt="Coffee Blend 1" class="product-image">
+                <h5>Cappuccino</h5>
+                <p class="price">PHP 150</p>
+                <button class="button-30" role="button" onclick="showModal('Cappuccino', 'A rich and creamy coffee blend made with espresso, steamed milk, and foam.')">Description</button>
         </div>
-    </section>
+        <div class="product">
+            <img src="images/latte.jpg" alt="Coffee Blend 2" class="product-image">
+            <h5>Latte</h5>
+            <p class="price">PHP 150</p>
+            <button class="button-30" role="button" onclick="showModal('Latte', 'A smooth coffee drink made with espresso and steamed milk, topped with light foam.')">Description</button>
+        </div>
+        <div class="product">
+            <img src="images/americano.jpg" alt="Coffee Blend 3" class="product-image">
+            <h5>Café Americano</h5>
+            <p class="price">PHP 150</p>
+            <button class="button-30" role="button" onclick="showModal('Café Americano', 'A simple and bold coffee made with espresso and hot water.')">Description</button>
+        </div>
+  
+        <div class="product">
+            <img src="images/matcha.jpg" alt="Coffee Blend 4" class="product-image">
+            <h5>Macha Coffee</h5>
+            <p class="price">PHP 150</p>
+            <button class="button-30" role="button" onclick="showModal('Café Americano', 'A simple and bold coffee made with espresso and hot water.')">Description</button>
+        </div>
+  
+  
+  
+        <div class="product">
+            <img src="images/crossiant.jpg" alt="Pastry 1 - Croissant" class="product-image">
+            <h5>Croissant</h5>
+            <p class="price">PHP 95</p>
+            <button class="button-30" role="button" onclick="showModal('Croissant', 'A buttery and flaky French pastry perfect for any time of the day.')">Description</button>
+        </div>
+        <div class="product">
+            <img src="images/eclair.jpg" alt="Pastry 2 - SCE" class="product-image">
+            <h5>Salted Caramel Éclair</h5>
+            <p class="price">PHP 175</p>
+            <button class="button-30" role="button" onclick="showModal('Salted Caramel Éclair', 'A choux pastry filled with salted caramel cream and topped with caramel icing.')">Description</button>
+        </div>
+        <div class="product">
+            <img src="images/nuttela.jpg" alt="Pastry 3 - NE" class="product-image">
+            <h5>Nutella Éclair</h5>
+            <p class="price">PHP 245</p>
+            <button class="button-30" role="button" onclick="showModal('Nutella Éclair', 'A choux pastry filled with Nutella cream and topped with a chocolate glaze.')">Description</button>
+        </div>
+        <div class="product">
+            <img src="images/danish.jpg" alt="Pastry 4 - PN" class="product-image">
+            <h5>Pineapple Danish</h5>
+            <p class="price">PHP 95</p>
+            <button class="button-30" role="button" onclick="showModal('Pineapple Danish', 'A sweet and fruity pastry filled with pineapple jam.')">Description</button>
+        </div>
+        <div class="product">
+            <img src="images/financiers.jpg" alt="Pastry 5 - Fnncrs" class="product-image">
+            <h5>Financiers</h5>
+            <p class="price">PHP 110</p>
+            <button class="button-30" role="button" onclick="showModal('Financiers', 'A small almond cake with a crispy exterior and moist interior.')">Description</button>
+        </div>
+    </div>
 
+
+    </section>
     <section id="about" class="about">
         <h2>About Us</h2>
         <p>Discover the story behind CozyCup Café...</p>

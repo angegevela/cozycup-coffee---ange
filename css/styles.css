@@ -58,7 +58,7 @@ nav a:hover {
 }
 
 .hero p {
-    font-size: 20px;
+    font-size: px;
     margin-bottom: 10px;
 }
 .hero h2 {
@@ -129,3 +129,41 @@ footer {
     text-align: center;
     padding: 20px 0;
 }
+
+    /* Product Grid */
+    .product-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 16px;
+        padding: 16px;
+    }
+
+    .product {
+        background-color:#FAF9F6;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 16px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .product:hover {
+        transform: scale(1.05);
+        box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    .product img {
+        width: 100%;
+        border-radius: 8px;
+        margin-bottom: 8px;
+    }
+
+    .product h5 {
+        font-size: 1.2em;
+        margin: 8px 0;
+    }
+
+    .product .price {
+        color: #444;
+        font-weight: bold;
+        margin: 8px 0;
+    }
