@@ -242,3 +242,38 @@ footer {
             transform: scale(1);
         }
     }
+
+/* meet the team css style*/
+.meet-the-team {
+    text-align: center;
+    padding: 20px;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px; /* Space between cards */
+    justify-content: center;
+}
+
+.team-member {
+    border: 1px solid #ccc; 
+    padding: 10px;
+    text-align: center;
+    background-color: #fff; 
+}
+
+.team-image {
+    width: 100%; 
+    height: auto; 
+}
+
+.team-member h5 {
+    font-size: 1em;
+    margin: 10px 0 ;
+}
+
+.team-member p {
+    font-size: 1.5em;
+    color: #555;
+}
