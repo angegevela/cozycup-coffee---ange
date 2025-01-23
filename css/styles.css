@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background-color: #fff;
+    background-color: #f6d0b5;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     padding: 20px;
 }
@@ -23,7 +23,24 @@ nav {
 }
 
 .logo img {
-    max-width: 100px;
+    max-width: 150px;
+}
+
+.logo {
+    display: flex;           
+    align-items: center;     
+}
+
+.logo img {
+    width: 50px;             
+    height: auto;
+    margin-right: 10px;      
+}
+
+.logo-text {
+    font-size: 24px;        
+    font-weight: bold;      
+    color: #ea7b1a;             
 }
 
 nav ul {
@@ -124,3 +141,31 @@ footer {
     text-align: center;
     padding: 20px 0;
 }
+
+.team-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.team-member {
+    text-align: center;
+    padding: 20px;   
+    width: 50%;     
+}
+
+.team-member img {
+    width: 100px;  
+    height: auto;
+    border-radius: 50%; 
+}
+
+.team-member h4 {
+    margin: 5px 0;  
+}
+
+.team-member p {
+    font-style: italic;
+}
+
+
+
